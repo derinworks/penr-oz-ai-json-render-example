@@ -68,6 +68,7 @@ export function ButtonRenderer({
 
   return (
     <button
+      type="button"
       onClick={handleClick}
       disabled={disabled}
       style={{
